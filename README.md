@@ -1,3 +1,5 @@
+## Switchboard reannotated dataset
+
 We provide a new version of Switchboard corpus with disfluency annotations for careful speech transcripts.
 
 The columns in the data correspond to:<br>
@@ -20,8 +22,8 @@ O - non-disfluency <br>
 C\_IE - the word is both in the reparandum and repair but not before interruption point (in nested disfluencies) <br>
 C\_IP - the word is both in the reparandum and repair and the last before the interruption point (in nested disfluencies) <br>
 
+## Paper
 You can find more details in our paper: https://arxiv.org/pdf/1904.04398.pdf.
-
 
 ```
 @article{zayats2019disfluencies,
@@ -31,4 +33,6 @@ You can find more details in our paper: https://arxiv.org/pdf/1904.04398.pdf.
   year={2019}
 }
 ```
+## License
 
+This dataset is an extension of the Switchboard and distributed under [LDC License](https://www.ldc.upenn.edu/data-management/using/licensing).
